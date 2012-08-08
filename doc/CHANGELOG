@@ -1,0 +1,6 @@
+v1.1 (August xx, 2012)
+*Fix start/stop script to disable GPIO __after__ killing main process.
+*Fix refresh function to accept times shorter than one second.
+
+v1.0 (August 04, 2012)
+*First public version.

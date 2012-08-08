@@ -1,0 +1,67 @@
+RasPiLEDMeter for Raspberry Pi
+Version 1.1
+
+********************
+Requirements
+********************
+
+ - First of all : a Raspberry Pi
+ - LED and resistors to build the LED usage meter
+   Assembly instructions are available at the following URL
+   https://goddess-gate.com/dc2/index.php/pages/raspiledmeter.en
+ - PHP installed
+
+
+********************
+How to use RasPiLEDMeter
+********************
+
+You'll first have to build the LED usage meter, and plug it  to the Raspberry Pi
+  (check https://goddess-gate.com/dc2/index.php/pages/raspiledmeter.en for more 
+  information).
+
+Then update "config.php" file to use one of the provided scripts (or write your
+  own). If you want to write your own script, you may want to check "dummy.sh"
+  file to have explanations on the expected output format.
+
+When you're done, just launch RasPiLEDmeter with "./raspiledmeter.sh start" as
+  root user and admire the usage meter working :-) When you want / need to stop
+  it, just execute "./raspiledmeter.sh stop" as root user.
+
+
+********************
+Info about pin usage
+********************
+
+Format :
+ <gpio name> : <header pin number>
+
+GPIO4  : header pin #07
+GPIO17 : header pin #11
+GPIO18 : header pin #12
+GPIO21 : header pin #13
+GPIO22 : header pin #15
+GPIO23 : header pin #16
+GPIO24 : header pin #18
+GPIO25 : header pin #22
+
+GPIO Name is the pin number on the BCM2835 chipset : see 
+ http://elinux.org/RPi_BCM2835_GPIOs
+Header Pin number is the pin number of the extension header on the board : see 
+  http://elinux.org/Rpi_Low-level_peripherals
+
+Shell access to the GPIO refers to the pin number on the BCM2835 chipset, NOT
+  pin number of the extension header.
+
+Example : in order to drive pin #07 on expansion header, you'll have to refer 
+  to GPIO4 in shell script.
+
+  # Set up GPIO4 and set to output
+  echo "4" > /sys/class/gpio/export
+  echo "out" > /sys/class/gpio/gpio4/direction
+
+  # Write output
+  echo "1" > /sys/class/gpio/gpio4/value
+
+  # Clean up
+  echo "4" > /sys/class/gpio/unexport
