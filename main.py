@@ -32,7 +32,7 @@ pid = os.getpid()
 try:
     fhandle = open('/var/run/raspiledmeter.pid', 'w')
 except IOError:
-    print "Unable to write /var/run/raspiledmeter.pid";
+    print ("Unable to write /var/run/raspiledmeter.pid")
     exit(1)
 fhandle.write(str(pid))
 fhandle.close()
