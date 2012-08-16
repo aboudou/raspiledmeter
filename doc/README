@@ -12,6 +12,12 @@ Requirements
  - Python (with Debian / Raspbian : packages "python" and "python-dev")
  - RPi.GPIO library (0.3.1a or newer) from http://pypi.python.org/pypi/RPi.GPIO
 
+To help your with the assembly, you may refer to the following files :
+ - raspiledmeter.sch : the circuit diagram to open with EAGLE 
+   (http://www.cadsoft.de/freeware.htm)
+ - raspiledmeter.fzz : the assembly mockup to open with Fritzing 
+   (http://fritzing.org/)
+
 
 ********************
 How to use RasPiLEDMeter
