@@ -20,6 +20,7 @@ To help you with the assembly, you may refer to the following files :
 
 * raspiledmeter.sch : the circuit diagram to open with EAGLE 
   ([http://www.cadsoft.de/freeware.htm](http://www.cadsoft.de/freeware.htm))
+* You may need to download and install [Raspberry Part](https://github.com/adafruit/Fritzing-Library/blob/master/AdaFruit.fzbz) for Fritzing
 * raspiledmeter.fzz : the assembly mockup to open with Fritzing 
   ([http://fritzing.org/](http://fritzing.org/))
 
