@@ -5,7 +5,7 @@ RasPiLEDMeter is a project for the [Raspberry Pi](http://raspberrypi.org) intend
 
 You can have more information into “doc” folder.
 
-* [Project's website](https://goddess-gate.com/dc2/index.php/pages/raspiledmeter.en)
+* [Project's website](https://goddess-gate.com/projects/en/raspi/raspiledmeter)
 * [Youtube video](http://www.youtube.com/watch?v=CoBR-0CVNDo)
 
 Requirements
