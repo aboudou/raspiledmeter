@@ -5,14 +5,14 @@ RasPiLEDMeter is a project for the [Raspberry Pi](http://raspberrypi.org) intend
 
 You can have more information into “doc” folder.
 
-* [Project's website](https://goddess-gate.com/projects/en/raspi/raspiledmeter)
+* [Project's website](http://goddess-gate.com/projects/en/raspi/raspiledmeter)
 * [Youtube video](http://www.youtube.com/watch?v=CoBR-0CVNDo)
 
 Requirements
 ------------
 
 * First of all : a Raspberry Pi
-* LED and resistors to build the LED usage meter. Assembly instructions are available at the following URL: [https://goddess-gate.com/projects/en/raspi/raspiledmeter](https://goddess-gate.com/projects/en/raspi/raspiledmeter)
+* LED and resistors to build the LED usage meter. Assembly instructions are available at the following URL: [http://goddess-gate.com/projects/en/raspi/raspiledmeter](http://goddess-gate.com/projects/en/raspi/raspiledmeter)
 * Python (with Debian / Raspbian : packages "python" and "python-dev")
 * RPi.GPIO library (0.4.0a or newer) from [http://pypi.python.org/pypi/RPi.GPIO](http://pypi.python.org/pypi/RPi.GPIO)
 
@@ -29,7 +29,7 @@ How to use RasPiLEDMeter
 ------------------------
 
 You'll first have to build the LED usage meter, and plug it  to the Raspberry Pi
-  (check [https://goddess-gate.com/projects/en/raspi/raspiledmeter](https://goddess-gate.com/projects/en/raspi/raspiledmeter) for information).
+  (check [http://goddess-gate.com/projects/en/raspi/raspiledmeter](http://goddess-gate.com/projects/en/raspi/raspiledmeter) for information).
 
 Then update "config.py" file to use one of the provided scripts (or write your
   own). If you want to write your own script, you may want to check "dummy.sh"
